@@ -85,6 +85,7 @@
     <Compile Include="Solutions\LongestValidParentheses.cs" />
     <Compile Include="Solutions\MaximumSubarray.cs" />
     <Compile Include="Solutions\MaxPointsOnLine.cs" />
+    <Compile Include="Solutions\MaxTreeWidth.cs" />
     <Compile Include="Solutions\MedianOfTwoSortedArrays.cs" />
     <Compile Include="Solutions\MergeKSortedLists.cs" />
     <Compile Include="Solutions\NetworkNodesReceiveSignals.cs" />

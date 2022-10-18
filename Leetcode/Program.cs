@@ -57,9 +57,140 @@ namespace Leetcode
             //TestRottenOrangesGridDuration();
             //TestDiagonalMartix();
             //TestCountOneSubmatrices(); //TODO
-            TestPrefixExcludedProducts();
+            //TestPrefixExcludedProducts();
+            TestMaxTreeWidth();
 
             Console.ReadLine();
+        }
+
+        static void TestMaxTreeWidth()
+        {
+            var vp = new MaxTreeWidth();
+            var ps = new[]
+            {
+                new TreeNode()
+                {
+                    val = 1,
+                    left = new TreeNode()
+                    {
+                        val = 2,
+                        left = new TreeNode()
+                        {
+                            val = 3
+                        },
+                        right = new TreeNode()
+                        {
+                            val = 4
+                        }
+                    },
+                    right = new TreeNode()
+                    {
+                        val = 5,
+                        right = new TreeNode()
+                        {
+                            val = 6
+                        }
+                    }
+                },
+                
+                new TreeNode()
+                {
+                    val = 1,
+                    left = new TreeNode()
+                    {
+                        val = 2,
+                        left = new TreeNode()
+                        {
+                            val = 3
+                        },
+                        right = new TreeNode()
+                        {
+                            val = 4
+                        }
+                    },
+                    right = new TreeNode()
+                    {
+                        val = 5,
+                        left = new TreeNode()
+                        {
+                            val = 6
+                        },
+                    }
+                },
+
+                new TreeNode()
+                {
+                    val = 1,
+                    left = new TreeNode()
+                    {
+                        val = 2,
+                        left = new TreeNode()
+                        {
+                            val = 3,
+                            left = new TreeNode()
+                            {
+                                val = 2,
+                                left = new TreeNode()
+                                {
+                                    val = 3,
+                                    right = new TreeNode()
+                                    {
+                                        val = 3,
+                                        left = new TreeNode()
+                                        {
+                                            val = 2,
+                                            left = new TreeNode()
+                                            {
+                                                val = 3
+                                            },
+                                        }
+                                    }
+                                },
+                            }
+                        },
+                    },
+                    right = new TreeNode()
+                    {
+                        val = 5,
+                        left = new TreeNode()
+                        {
+                            val = 6,
+                            left = new TreeNode()
+                            {
+                                val = 2,
+                                left = new TreeNode()
+                                {
+                                    val = 3,
+                                    left = new TreeNode()
+                                    {
+                                        val = 3,
+                                        left = new TreeNode()
+                                        {
+                                            val = 2,
+                                            left = new TreeNode()
+                                            {
+                                                val = 3
+                                            },
+                                        }
+                                    }
+                                },
+                            }
+                        },
+                    }
+                },
+
+                null,
+
+                new TreeNode()
+                {
+                    val = 0
+                }
+            };
+            foreach (var p in ps)
+            {
+                var maxWidth = vp.WidthOfBinaryTree(p);
+                Console.WriteLine($"tree :\n{p}\nwidth:{maxWidth}");
+            }
         }
 
         static void TestPrefixExcludedProducts()
