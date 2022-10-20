@@ -63,6 +63,7 @@
     <Compile Include="DataTypes\Node.cs" />
     <Compile Include="DataTypes\TreeNode.cs" />
     <Compile Include="Designs\LRUCache.cs" />
+    <Compile Include="Designs\MyQueue.cs" />
     <Compile Include="Designs\Trie.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -95,6 +96,7 @@
     <Compile Include="Solutions\PowN.cs" />
     <Compile Include="Solutions\PrefixExcludedProducts.cs" />
     <Compile Include="Solutions\RemoveAllInvalidParentheses.cs" />
+    <Compile Include="Solutions\RemoveKdigits.cs" />
     <Compile Include="Solutions\ReverseEveryK.cs" />
     <Compile Include="Solutions\RottenOrangesGridDuration.cs" />
     <Compile Include="Solutions\SearchSuggestionsSystem.cs" />

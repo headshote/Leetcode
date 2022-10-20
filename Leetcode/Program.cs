@@ -58,9 +58,25 @@ namespace Leetcode
             //TestDiagonalMartix();
             //TestCountOneSubmatrices(); //TODO
             //TestPrefixExcludedProducts();
-            TestMaxTreeWidth();
+            //TestMaxTreeWidth();
+            TestMyQueue();
 
             Console.ReadLine();
+        }
+
+        static void TestMyQueue()
+        {
+            var q = new MyQueue();
+            q.Push(1);
+            q.Push(2);
+            q.Push(3);
+            q.Push(4);
+            Console.WriteLine($"{q.Pop()}");
+            q.Push(5);
+            Console.WriteLine($"{q.Pop()}");
+            Console.WriteLine($"{q.Pop()}");
+            Console.WriteLine($"{q.Pop()}");
+            Console.WriteLine($"{q.Pop()}");
         }
 
         static void TestMaxTreeWidth()
