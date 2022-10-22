@@ -77,6 +77,7 @@
     <Compile Include="Solutions\CopyListWRandomPointer.cs" />
     <Compile Include="Solutions\CountOneSubmatrices.cs" />
     <Compile Include="Solutions\DiagonalMartix.cs" />
+    <Compile Include="Solutions\DiagonalMatrixSort.cs" />
     <Compile Include="Solutions\FindDuplicateNumberBetween1AndN.cs" />
     <Compile Include="Solutions\FlattenBinaryTree.cs" />
     <Compile Include="Solutions\IntersectionOfTwoArrays.cs" />
@@ -91,6 +92,7 @@
     <Compile Include="Solutions\MergeKSortedLists.cs" />
     <Compile Include="Solutions\NetworkNodesReceiveSignals.cs" />
     <Compile Include="Solutions\NumberOfIslands.cs" />
+    <Compile Include="Solutions\NumRollsToTargetWithNDice.cs" />
     <Compile Include="Solutions\PartitionUniqueLetterLabels.cs" />
     <Compile Include="Solutions\Permutations.cs" />
     <Compile Include="Solutions\PowN.cs" />
@@ -106,6 +108,7 @@
     <Compile Include="Solutions\TheGameOfLife.cs" />
     <Compile Include="Solutions\TheWordBreak.cs" />
     <Compile Include="Solutions\TrappingRainWater.cs" />
+    <Compile Include="Solutions\TwoCharBuddyStrings.cs" />
     <Compile Include="Solutions\ValidParentheses.cs" />
     <Compile Include="Extensions\PrintExtensions.cs" />
     <Compile Include="Solutions\WordLadder.cs" />
