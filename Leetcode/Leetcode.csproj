@@ -80,6 +80,7 @@
     <Compile Include="Solutions\DiagonalMatrixSort.cs" />
     <Compile Include="Solutions\FindDuplicateNumberBetween1AndN.cs" />
     <Compile Include="Solutions\FlattenBinaryTree.cs" />
+    <Compile Include="Solutions\HammingDistanceCalc.cs" />
     <Compile Include="Solutions\IntersectionOfTwoArrays.cs" />
     <Compile Include="Solutions\IsStringSubsequence.cs" />
     <Compile Include="Solutions\LongestPalindromicSubstring.cs" />

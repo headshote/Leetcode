@@ -62,9 +62,29 @@ namespace Leetcode
             //TestMyQueue();
             //TestNumRollsToTargetWithNDice();
             //TestTwoCharBuddyStrings();
-            TestDiagonalMatrixSort();
+            //TestDiagonalMatrixSort();
+            TestHammingDistanceCalc();
 
             Console.ReadLine();
+        }
+
+        static void TestHammingDistanceCalc()
+        {
+            var s = new HammingDistanceCalc();
+            var ns = new[] {
+                1,
+                3,
+            };
+            var ks = new[] {
+                4,
+                1
+            };
+            for (int i = 0; i < ns.Length; i++)
+            {
+                var result = s.HammingDistance(ns[i], ks[i]);
+
+                Console.WriteLine($"x={ns[i]}, y={ks[i]} dist={result}");
+            }
         }
 
         static void TestDiagonalMatrixSort()
