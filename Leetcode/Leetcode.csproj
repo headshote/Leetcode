@@ -113,6 +113,7 @@
     <Compile Include="Solutions\ValidParentheses.cs" />
     <Compile Include="Extensions\PrintExtensions.cs" />
     <Compile Include="Solutions\WordLadder.cs" />
+    <Compile Include="Solutions\WRBalls.cs" />
     <Compile Include="Utils\PrintUtils.cs" />
     <Compile Include="Utils\TestInputGenerator.cs" />
   </ItemGroup>
